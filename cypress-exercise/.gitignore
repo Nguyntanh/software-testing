@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+
+# Cypress folders
+# Chỉ giữ lại video/screenshot nếu bạn muốn lưu trên server, 
+# nhưng thông thường chúng ta sẽ ignore để tránh nặng repo.
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Cypress logs and reports
+cypress/logs/
+cypress/results/
+mochawesome-report/
+
+# Environment variables (Bảo mật - Quan trọng!)
+cypress.env.json
+.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
